@@ -39,3 +39,17 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# HealthBridge specific
+*.env
+*.env.local
+.env.production
+/backend/__pycache__/
+/backend/venv/
+/data/raw/
+*.db
+*.sqlite
+node_modules/
+dist/
+build/
+.expo/
